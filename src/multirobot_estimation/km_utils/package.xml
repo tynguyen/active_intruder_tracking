@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>km_utils</name>
+  <version>0.1.0</version>
+  <description>The km_utils package</description>
+
+  <maintainer email="tynguyen.tech@gmail.com">Ty Nguyen</maintainer>
+
+  <author>Ty Nguyen</author>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>eigen</depend>
+  <depend>boost</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>

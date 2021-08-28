@@ -12,3 +12,28 @@
 |_src: source files
 |_assets: media files used to write README
 ```
+
+# Requirements
+- [x] locate
+```
+sudo apt install mlocate
+```
+
+- [x] eigen3
+```
+sudo apt install libeigen3-dev
+```
+
+Check if it's already installed
+```
+sudo locate eigen3
+```
+
+- [x] git version >= 2.7
+```
+sudo apt-get install python-software-properties software-properties-common
+sudo add-apt-repository ppa:git-core/ppa -y
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git -y
+```
